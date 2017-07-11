@@ -11,7 +11,8 @@
         },
         {
             "type": "puppet-masterless",
-            "manifest_file": "manifests/default.pp"
+            "manifest_file": "manifests/default.pp",
+            "prevent_sudo": true
         }
     ],
     "post-processors": [
